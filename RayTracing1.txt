@@ -1,9 +1,9 @@
 RAY TRACING (TEST) 1
 
------------------------------------------------------------
-press W, A, S or D to display the cube for the first time,
-then WASD again to rotate around it
------------------------------------------------------------
+--------------------------------------------------------------------
+Use W A S D to rotate the cube. 
+(You can quit with ESC... for whatever reason you'd want to do that)
+--------------------------------------------------------------------
 
 One of my friend joked about doing ray tracing in the console, 
 so, like any normal human being, I thought: 
@@ -11,10 +11,8 @@ so, like any normal human being, I thought:
 So I did.
 
 Turns out, there's a lot of math. 
-Turns out, my math to determine the rays' starting point don't work.
-(Even tho they do on paper... I think)
-
-So here's the cleanest result I could get in which you can rotate
-over 360deg sideway
-but only about 45deg in pitch before the render breaks for...
-mathematical reasons my fix doesn't fix.
+Turns out, my math to determine the rays' starting point did't work.
+Turns out, I needed even more math.
+Turns out, it works now.
+Turns out, the vidoe quality is shit... 
+BUT IT WORKS! RAY TRACING IN THE CONSOLE WORKS!
